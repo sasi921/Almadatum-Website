@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+	<title>Winku Social Network Toolkit</title>
+    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16"> 
+    
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+<!--<div class="se-pre-con"></div>-->
+<div class="theme-layout">
+	
+	<div class="responsive-header">
+		<div class="mh-head first Sticky">
+			<span class="mh-btns-left">
+				<a class="" href="#menu"><i class="fa fa-align-justify"></i></a>
+			</span>
+			<span class="mh-text">
+				<a href="newsfeed.html" title=""><img src="images/logo2.png" alt=""></a>
+			</span>
+			<span class="mh-btns-right">
+				<a class="fa fa-sliders" href="#shoppingbag"></a>
+			</span>
+		</div>
+		<div class="mh-head second">
+			<form class="mh-form">
+				<input placeholder="search" />
+				<a href="#/" class="fa fa-search"></a>
+			</form>
+		</div>
+		<nav id="menu" class="res-menu">
+			<ul>
+				<li><span>Home</span>
+					<ul>
+						<li><a href="index-2.html" title="">Home Social</a></li>
+						<li><a href="landing.html" title="">Login page</a></li>
+						
+					</ul>
+				</li>
+				
+				<li><span>forum</span>
+					<ul>
+						<li><a href="forum.html" title="">Forum Page</a></li>
+						<li><a href="forums-category.html" title="">Fourm Category</a></li>
+						<li><a href="forum-open-topic.html" title="">Forum Open Topic</a></li>
+						<li><a href="forum-create-topic.html" title="">Forum Create Topic</a></li>
+					</ul>
+				</li>
+				<li><span>Our Shop</span>
+					<ul>
+						<li><a href="shop.html" title="">Shop Products</a></li>
+						<li><a href="shop-masonry.html" title="">Shop Masonry Products</a></li>
+						<li><a href="shop-single.html" title="">Shop Detail Page</a></li>
+						<li><a href="shop-cart.html" title="">Shop Product Cart</a></li>
+						<li><a href="shop-checkout.html" title="">Product Checkout</a></li>
+					</ul>
+				</li>
+				<li><span>Our Blog</span>
+					<ul>
+						<li><a href="blog-grid-wo-sidebar.html" title="">Our Blog</a></li>
+						<li><a href="blog-grid-right-sidebar.html" title="">Blog with R-Sidebar</a></li>
+						<li><a href="blog-grid-left-sidebar.html" title="">Blog with L-Sidebar</a></li>
+						<li><a href="blog-masonry.html" title="">Blog Masonry Style</a></li>
+						<li><a href="blog-list-wo-sidebar.html" title="">Blog List Style</a></li>
+						<li><a href="blog-list-right-sidebar.html" title="">Blog List with R-Sidebar</a></li>
+						<li><a href="blog-list-left-sidebar.html" title="">Blog List with L-Sidebar</a></li>
+						<li><a href="blog-detail.html" title="">Blog Post Detail</a></li>
+					</ul>
+				</li>
+				<li><span>Portfolio</span>
+					<ul>
+						<li><a href="portfolio-2colm.html" title="">Portfolio 2col</a></li>
+						<li><a href="portfolio-3colm.html" title="">Portfolio 3col</a></li>
+						<li><a href="portfolio-4colm.html" title="">Portfolio 4col</a></li>
+					</ul>
+				</li>
+				<li><span>Support & Help</span>
+					<ul>
+						<li><a href="support-and-help.html" title="">Support & Help</a></li>
+						<li><a href="support-and-help-detail.html" title="">Support & Help Detail</a></li>
+						<li><a href="support-and-help-search-result.html" title="">Support & Help Search Result</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="about.html" title="">about</a></li>
+				<li><a href="about-company.html" title="">About Us2</a></li>
+				<li><a href="contact.html" title="">contact</a></li>
+				<li><a href="contact-branches.html" title="">Contact Us2</a></li>
+				<li><a href="widgets.html" title="">Widgts</a></li>
+			</ul>
+		</nav>
+		<nav id="shoppingbag">
+			<div>
+				<div class="">
+					<form method="post">
+						<div class="setting-row">
+							<span>use night mode</span>
+							<input type="checkbox" id="nightmode"/> 
+							<label for="nightmode" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>Notifications</span>
+							<input type="checkbox" id="switch2"/> 
+							<label for="switch2" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>Notification sound</span>
+							<input type="checkbox" id="switch3"/> 
+							<label for="switch3" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>My profile</span>
+							<input type="checkbox" id="switch4"/> 
+							<label for="switch4" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>Show profile</span>
+							<input type="checkbox" id="switch5"/> 
+							<label for="switch5" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+					</form>
+					<h4 class="panel-title">Account Setting</h4>
+					<form method="post">
+						<div class="setting-row">
+							<span>Sub users</span>
+							<input type="checkbox" id="switch6" /> 
+							<label for="switch6" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>personal account</span>
+							<input type="checkbox" id="switch7" /> 
+							<label for="switch7" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>Business account</span>
+							<input type="checkbox" id="switch8" /> 
+							<label for="switch8" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>Show me online</span>
+							<input type="checkbox" id="switch9" /> 
+							<label for="switch9" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>Delete history</span>
+							<input type="checkbox" id="switch10" /> 
+							<label for="switch10" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+						<div class="setting-row">
+							<span>Expose author name</span>
+							<input type="checkbox" id="switch11" /> 
+							<label for="switch11" data-on-label="ON" data-off-label="OFF"></label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</div><!-- responsive header -->
+	
+	<div class="topbar stick">
+		<div class="logo">
+			<a title="" href="newsfeed.html"><img src="images/logo.png" alt=""></a>
+		</div>
+		
+		<div class="top-area">
+			
+			
+			<div class="user-img">
+				<div class="user-setting">
+					<a href="#" title=""><span class="status f-online"></span>online</a>
+					<a href="#" title=""><span class="status f-away"></span>away</a>
+					<a href="#" title=""><span class="status f-off"></span>offline</a>
+					<a href="#" title=""><i class="ti-user"></i> view profile</a>
+					<a href="#" title=""><i class="ti-pencil-alt"></i>edit profile</a>
+					<a href="#" title=""><i class="ti-target"></i>activity log</a>
+					<a href="#" title=""><i class="ti-settings"></i>account setting</a>
+					<a href="#" title=""><i class="ti-power-off"></i>log out</a>
+				</div>
+			</div>
+		</div>
+	</div><!-- topbar -->
+	
+	<section>
+			<div class="feature-photo">
+				<figure><img src="images/resources/timeline-1.jpg" alt=""></figure>
+				
+				<form class="edit-phto">
+					<i class="fa fa-camera-retro"></i>
+					<label class="fileContainer">
+						Edit Cover Photo
+					<input type="file"/>
+					</label>
+				</form>
+				<div class="container-fluid">
+					<div class="row merged">
+						<div class="col-lg-2 col-sm-3">
+							<div class="user-avatar">
+								<figure>
+									<img src="images/resources/admin.jpg" alt="">
+									<form class="edit-phto">
+										<i class="fa fa-camera-retro"></i>
+										<label class="fileContainer">
+											Edit Display Photo
+											<input type="file"/>
+										</label>
+									</form>
+								</figure>
+							</div>
+						</div>
+						<div class="col-lg-10 col-sm-9">
+							<div class="timeline-info">
+								<ul>
+									
+									<li>
+										<a class="" href="timeline-photos.html" title="" data-ripple="">Photos</a>
+										<a class="active" href="timeline-videos.html" title="" data-ripple="">Videos</a>
+										
+										<a class="" href="about.html" title="" data-ripple="">about</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><!-- top area -->
+		
+	<section>
+		<div class="gap gray-bg">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row" id="page-contents">
+							<div class="col-lg-3">
+								<aside class="sidebar static">
+									<div class="widget">
+											
+										</div>
+									<div class="widget">
+										<h4 class="widget-title">Shortcuts</h4>
+										<ul class="naves">
+											<li>
+												<i class="ti-clipboard"></i>
+												<a href="newsfeed.php" title="">News feed</a>
+											</li>
+											
+												<i class="ti-image"></i>
+												<a href="timeline-photos.php" title="">images</a>
+											</li>
+											<li>
+											</li>
+											<li>
+												<i class="ti-video-camera"></i>
+												<a href="timeline-videos.php" title="">videos</a>
+											</li>
+											
+											
+											<li>
+												<i class="ti-power-off"></i>
+												<a href="soclogout.php" title="">Logout</a>
+											</li>
+										</ul>
+									</div><!-- Shortcuts -->
+									
+								</aside>
+							</div><!-- sidebar -->
+							<div class="col-lg-6">
+								<div class="central-meta">
+									<ul class="photos">
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo1.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo2.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+													  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+														C97.3,23.7,75.7,2.3,49.9,2.5"/>
+													  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+														</svg>
+													</i>
+												</a>
+											</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo3.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo4.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo5.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo6.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+													  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+														C97.3,23.7,75.7,2.3,49.9,2.5"/>
+													  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+														</svg>
+													</i>
+												</a>
+											</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo7.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo8.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo9.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo10.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo11.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=MIbbtEjdYrc" title="" data-strip-group="mygroup" class="strip" data-strip-options="width: 700,height: 450,youtube: { autoplay: 1 }"><img src="images/resources/photo12.jpg" alt="">
+												<i>
+													<svg version="1.1" class="play" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="40px" width="40px"
+													 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+												  <path class="stroke-solid" fill="none" stroke=""  d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+													C97.3,23.7,75.7,2.3,49.9,2.5"/>
+												  <path class="icon" fill="" d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"/>
+													</svg>
+												</i>
+											</a>
+										</li>
+									</ul>
+									<div class="lodmore"><button class="btn-view btn-load-more"></button></div>
+								</div><!-- photos -->
+							</div><!-- centerl meta -->
+							<div class="col-lg-3">
+								<aside class="sidebar static">
+									<div class="widget">
+											
+									
+									
+								</aside>
+							</div><!-- sidebar -->
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4">
+					<div class="widget">
+						<div class="foot-logo">
+							<div class="logo">
+								<a href="newsfeed.html" title=""><img src="images/logo.png" alt="" align="center"></a>
+							</div>	
+							
+			</div>
+		</div>
+	</footer><!-- footer -->
+</div>
+	
+	
+	<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/main.min.js"></script>
+	<script src="js/script.js"></script>
+
+</body>	
+
+
+</html>

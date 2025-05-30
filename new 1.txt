@@ -1,0 +1,133 @@
+<button class="tablinks" onclick="openCity(event, 'TCS')">TCS</button>
+  <button class="tablinks" onclick="openCity(event,'MAQ SOFTWARE')">MAQ SOFTWARE</button>
+  <button class="tablinks" onclick="openCity(event, 'SHRISINFOTECH SERVICES')">SHRISINFOTECH SERVICES</button>
+  <button class="tablinks" onclick="openCity(event, 'TEMENOS')">TEMENOS</button>
+  <button class="tablinks" onclick="openCity(event, 'HCL')">HCL</button>
+  <button class="tablinks" onclick="openCity(event, 'DELTAX')">DELTAX</button>
+  <button class="tablinks" onclick="openCity(event, 'VALUELABS')">VALUELABS</button>
+  <button class="tablinks" onclick="openCity(event, 'EMPHASIS')">EMPHASIS</button>
+  <button class="tablinks" onclick="openCity(event, 'WIPRO')">WIPRO</button>
+  <button class="tablinks" onclick="openCity(event, 'GLOBALOGIC')">GLOBALOGIC</button>
+  <button class="tablinks" onclick="openCity(event, 'AXION IO')">AXION IO</button>
+  <button class="tablinks" onclick="openCity(event,'EPAM')">EPAM</button>
+  <button class="tablinks" onclick="openCity(event, 'SENSEN NETWORKS')">SENSEN NETWORKS </button>
+  <button class="tablinks" onclick="openCity(event, 'WIPRO')">WIPRO</button>
+  <button class="tablinks" onclick="openCity(event, 'RGB INFOTECH')">RGB INFOTECH</button>
+  <button class="tablinks" onclick="openCity(event, 'VISHNAVI INFOTECH')">VISHNAVI INFOTECH</button>
+  <button class="tablinks" onclick="openCity(event, 'TELE INFRA')">TELE INFRA</button>
+  <button class="tablinks" onclick="openCity(event, 'IBM')">IBM</button>
+  <button class="tablinks" onclick="openCity(event, 'LBI')">LBI</button>
+  <button class="tablinks" onclick="openCity(event, 'COGNIZENT')">COGNIZENT</button>
+  <button class="tablinks" onclick="openCity(event, 'IVY COMETECH')">IVY COMETECH</button>
+  <button class="tablinks" onclick="openCity(event, 'ACCENTURE')">ACCENTURE</button>
+  <button class="tablinks" onclick="openCity(event, 'LEGATO')">LEGATO</button>
+  <button class="tablinks" onclick="openCity(event, 'MINDTREE')">MINDTREE</button>
+  <button class="tablinks" onclick="openCity(event, 'SAIDISHITA PVT LIMITED')">SAIDISHITA PVT LIMITED</button>
+  <button class="tablinks" onclick="openCity(event, 'OMICS')">OMICS</button>
+  <button class="tablinks" onclick="openCity(event, 'SAI DESKSHITHA TEC SERVICES')">SAI DESKSHITHA TEC SERVICES</button>
+  <button class="tablinks" onclick="openCity(event, 'TECH MAHINDRA')">TECH MAHINDRA</button>
+  <button class="tablinks" onclick="openCity(event, 'COGNIZANT')">COGNIZANT</button>
+  <button class="tablinks" onclick="openCity(event, 'AMAZON')">AMAZON</button>
+  <button class="tablinks" onclick="openCity(event, 'OCTOPUS')">OCTOPUS</button>
+  <button class="tablinks" onclick="openCity(event, '6ENERGY TECHNOLOGIES')">6ENERGY TECHNOLOGIES</button>
+  <button class="tablinks" onclick="openCity(event, 'CAPGEMINI')">CAPGEMINI</button>
+
+
+                  $query = "SELECT * FROM unemployed as c1,student_info as c2 where c1.SID=c2.SID AND c2.passed_out_year='".$passed_out_year."'";
+
+
+BABEL
+IVY
+EFFTRONICS SYSTEMS PVT. LTD
+CONCENTRIX
+INFOCYS
+GREPTHOR SOFTWARE SOLUTIONS
+FACE
+SUTHERLAND
+HEXAWARE TECHNOLOGIES LIMITED
+CTS
+FACE EDUCATION PVT LTD
+ADARSH BANK
+QUADRANT RESOURCESPVTLTD
+WESTERNSHPPING
+TRIANZ
+HARTECH
+9LOGIC TECH
+HEXAWARE
+INTEGRA
+KANTAR
+RAAM GROUP
+EPAM 
+VIRTUSA
+INFOSIS
+VALUE LABS 
+NALSOFT 
+INFOSYS
+CONCENTRIX 
+ALIENS DEVELOPERS
+ALLSEC TECHNICAL SOLUTIONS
+ALIENS DEVELOPERS/CONTENTRIX
+WEBSYNERGIES
+SUNERATECH
+SAGAR S/W SOLUTIONS
+TCS DIGITAL
+ALLSEC TECHNOLOGIES
+VALUELABS
+HEXAWARE TECHNOLOGIES
+TCS 
+NAAVIGO
+WIPRO,INFOSYS
+FREEDIGITAL
+RAJ GROUPS
+TCS&DELTAX
+CONCENTRIC
+EFFECTRONICS
+CBRE
+HEXA WARE
+CANADA PLAN
+MAN POWER GROUP
+SENECAGLOBAL IT SERVICES
+L CUBE SOLUTIONS
+CONCENTRICS(WAITIING)
+ZILLA PARISHATH
+SULERA TECH
+COGINZANT
+MPHASIS
+EFFRONICS
+TCL
+OSI 
+FOUCS EDUMATICS 
+CHEGG
+MYCAPTAIN
+PENTAGON SPACE
+FOCUS EDUMATICS
+6DTECHNOLOGIES
+OSI DIGITAL
+FOCUS ENDUMATICS
+6D TECHNOLOGIES 
+L&T
+LTTS
+HEXAWARE 
+QUADRANT RESOURCE
+KEKA
+EDUMATICS
+KEKA HR
+6DEE TECHNOLOGY
+HCL 
+EDUMATIC
+L & T
+FOCUS EDUMANTIC
+TCS HYDERBAD
+WEALUS
+OSI
+EFFOTRONICS
+ACCENTURE 
+L-CUBE INNOVATIVE SOLUTIONS
+FIS GLOBAL
+WIPRO NOTCS
+6D TECHNOLOGIES
+FIS
+GLOBAL EDGE SOFTWARE
+CTS 
+PENTAGON
+CHEGG INDIA
