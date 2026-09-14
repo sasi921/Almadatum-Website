@@ -1,36 +1,56 @@
-# Almadatum
-**Project Overview:**
+# Almadatum — Alumni Management Platform
 
-The ALMADATUM system is an advanced, web-based alumni management solution designed for higher education institutions. Leveraging cutting-edge web scraping and crawling technologies, ALMADATUM provides accurate, real-time alumni data to enhance institutional decision-making and alumni engagement. The system streamlines data management processes, strengthens community interactions, and significantly contributes to Institutional Advancements (IA).
+A full-stack alumni management platform designed for higher-education institutions, combining alumni profile management, engagement workflows, administrative dashboards, database-backed CRUD operations, and data-collection automation.
 
-**Key Features:**
+## Project goals
 
-Advanced Data Scraping & Crawling: Regularly updates alumni profiles by extracting data from professional networking platforms like LinkedIn.
+Almadatum was built to make alumni information easier to manage and more useful for institutional teams. The project focuses on keeping alumni data organized, supporting engagement activities, and giving administrators a clearer view of alumni participation and outcomes.
 
-Real-time Alumni Data Management: Ensures the availability of precise and up-to-date alumni information for strategic institutional decisions.
+## Core capabilities
 
-Interactive Alumni Engagement Portal: Allows alumni to conveniently update their profiles, view and attend upcoming meetings, contribute financially, and share employment opportunities.
+- Alumni profile and contact-information management
+- Database-backed CRUD workflows
+- Administrative dashboards and reporting views
+- Event and engagement management
+- Employment and career-information tracking
+- Alumni networking and opportunity sharing
+- Data collection and enrichment workflows
+- Responsive web interfaces for administrators and users
 
-Comprehensive Admin Dashboard: Empowers administrators with robust tools for generating analytical reports and monitoring alumni engagement metrics.
+## Technology stack
 
-Integrated Social Networking: Promotes interaction among alumni, facilitating networking opportunities and collaboration between current students and alumni.
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Python and PHP-based application workflows
+- **Database:** MySQL / relational data management
+- **Data collection:** Beautiful Soup and related web-automation/scraping workflows
+- **Development focus:** CRUD design, data integration, dashboards, validation, and secure backend patterns
 
-**Technology Stack:**
+## Engineering concepts demonstrated
 
-->**Frontend:** HTML, CSS, JavaScript
+- Full-stack application development
+- Relational database integration
+- Server-side request handling
+- CRUD API/workflow design
+- Data validation and error handling
+- Dashboard-oriented UI development
+- Data extraction and transformation
+- Role-oriented institutional workflows
 
-->**Backend:** Python, MySQL
+## Repository note
 
-->**Web Scraping Tools:** Phantom Buster, Beautiful Soup
+This repository reflects an academic/portfolio implementation and includes legacy project code created during development. Current improvement work focuses on making the backend safer, easier to understand, and more maintainable while preserving the original project behavior.
 
-->**Cloud-based Solutions & Extensions:** Scrapy, ParseHub, Puppeteer
+## Ongoing improvements
 
-**Repository Organization:**
+- Replace unsafe SQL construction with parameterized queries
+- Improve validation and error handling
+- Document setup and database requirements
+- Separate configuration from application logic
+- Add automated checks for critical backend workflows
+- Improve repository structure and reproducibility
 
-->**src/:** Source code and associated scripts
+## Author
 
-->**data/:** Scraped datasets and alumni information
+**Sasidhar Reddy Velkuri**
 
-->**docs/:** Documentation, reports, and manuals
-
-->**web_portal/:** Implementation of the user interface and administrative control panels
+GitHub: [@sasi921](https://github.com/sasi921)
